@@ -1,24 +1,24 @@
+# Datasets
+**/Dataset/
+**/Datasets/
+data/raw/
+data/processed/
+*.csv
+*.txt
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
 # Python
 __pycache__/
-*.py[cod]
+*.pyc
 venv/
 .venv/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# ML datasets
-**/Dataset/
-**/Datasets/
-data/raw/
-data/processed/
-
-# Model weights and checkpoints
-*.pth
-*.pt
-*.ckpt
-
-# Temporary files
-*.log
-.cache/
+# Secrets
 .env
