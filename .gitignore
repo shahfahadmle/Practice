@@ -1,8 +1,24 @@
-*.csv
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML datasets
+**/Dataset/
+**/Datasets/
+data/raw/
+data/processed/
+
+# Model weights and checkpoints
 *.pth
-*.pkl
-*.txt
-*.ipynb_checkpoints
-*.vscode
-*.excel
-*.xlsx
+*.pt
+*.ckpt
+
+# Temporary files
+*.log
+.cache/
+.env
